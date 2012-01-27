@@ -14,7 +14,7 @@
   <tr>
     <td><%= gift.name %></td>
     <td><%= gift.url %></td>
-    <td><%= gift.person %></td>
+    <td><%= gift.person.name %></td>
     <td><%= link_to 'Show', gift %></td>
     <td><%= link_to 'Edit', edit_gift_path(gift) %></td>
     <td><%= link_to 'Destroy', gift, confirm: 'Are you sure?', method: :delete %></td>
